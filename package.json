@@ -1,0 +1,23 @@
+{
+  "name": "nodejs_proyecto-final_26134",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js", 
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msondadev/nodeJS_proyecto-final_26134.git"
+  },
+  "keywords": [],
+  "author": "Martin Daniel Sonda",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/msondadev/nodeJS_proyecto-final_26134/issues"
+  },
+  "homepage": "https://github.com/msondadev/nodeJS_proyecto-final_26134#readme"
+}
