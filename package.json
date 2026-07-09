@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/msondadev/nodeJS_proyecto-final_26134#readme",
   "dependencies": {
+    "dotenv": "^17.4.2",
     "express": "^5.2.1"
   }
 }
