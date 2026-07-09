@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js", 
+    "start": "node index.js",
     "dev": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/msondadev/nodeJS_proyecto-final_26134/issues"
   },
-  "homepage": "https://github.com/msondadev/nodeJS_proyecto-final_26134#readme"
+  "homepage": "https://github.com/msondadev/nodeJS_proyecto-final_26134#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
