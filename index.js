@@ -6,7 +6,7 @@ import cors from "cors";
 import bodyParser from "body-parser";
 
 import productsRouter from "./src/routes/products.router.js";
-// import authRouter from "./src/routes/auth.router.js";
+import authRouter from "./src/routes/auth.router.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 
 // Rutas
 app.use("/api/products", productsRouter);
-// app.use("/auth", authRouter);
+app.use("/auth", authRouter);
 
 // Middleware para rutas no definidas
 app.use((req, res) => {
