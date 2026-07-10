@@ -1,6 +1,6 @@
 # API REST de Productos — Proyecto Final Back-End Node.js (Comisión 26134)
 
-API REST desarrollada en **Node.js + Express**, con persistencia en **Cloud Firestore (Firebase)** y autenticación mediante **JSON Web Tokens (JWT)**. Permite administrar el catálogo de productos de una tienda: leer, crear, actualizar y eliminar información, protegiendo las operaciones sensibles con un token Bearer.
+API REST desarrollada en **Node.js + Express**, con persistencia en **Cloud Firestore (Firebase)** y autenticación mediante **JSON Web Tokens (JWT)**. Permite administrar el catálogo de productos de una librería/kiosco: leer, crear y eliminar información, protegiendo las operaciones sensibles con un token Bearer.
 
 ## 🚀 Tecnologías
 
@@ -32,7 +32,7 @@ proyecto-final-26134/
 ## ⚙️ Instalación
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/msondadev/nodeJS_proyecto-final_26134.git
 cd proyecto-final-26134
 npm install
 ```
@@ -102,10 +102,24 @@ Devuelve todos los productos.
 [
   {
     "id": "abc123",
-    "nombre": "Cuaderno cuadriculado 48 hojas",
-    "precio": 12000,
-    "stock": 30,
+    "nombre": "Cuaderno Éxito Tapa Dura Rayado 42h",
+    "precio": 3800,
+    "stock": 500,
     "categoria": "Librería"
+  },
+  {
+    "id": "abc124",
+    "nombre": "Shampoo Plusbelle Esencia 1L",
+    "precio": 2100,
+    "stock": 250,
+    "categoria": "Perfumería"
+  },
+  {
+    "id": "abc125",
+    "nombre": "Velas Blancas Iluminarte (Paquete x4)",
+    "precio": 800,
+    "stock": 120,
+    "categoria": "Bazar"
   }
 ]
 ```
@@ -117,10 +131,10 @@ Devuelve el producto con el ID indicado.
 ```json
 {
   "id": "abc123",
-  "nombre": "Cuaderno cuadriculado 48 hojas",
-  "precio": 12000,
-  "stock": 10,
-  "categoria": "Periféricos"
+  "nombre": "Resma Ledesma Autor A4 500h",
+  "precio": 6200,
+  "stock": 150,
+  "categoria": "Librería"
 }
 ```
 
@@ -138,9 +152,9 @@ Authorization: Bearer <token>
 **Body:**
 ```json
 {
-  "nombre": "Encendedor Candela",
-  "precio": 3500,
-  "stock": 50,
+  "nombre": "Encendedor Candela Transparente",
+  "precio": 600,
+  "stock": 150,
   "categoria": "Kiosco"
 }
 ```
@@ -149,10 +163,10 @@ Authorization: Bearer <token>
 ```json
 {
   "id": "def456",
-  "nombre": "Teclado mecánico",
-  "precio": 25000,
-  "stock": 5,
-  "categoria": "Periféricos"
+  "nombre": "Encendedor Candela Transparente",
+  "precio": 600,
+  "stock": 150,
+  "categoria": "Kiosco"
 }
 ```
 
