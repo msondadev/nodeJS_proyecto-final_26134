@@ -32,7 +32,7 @@ proyecto-final-26134/
 ## ⚙️ Instalación
 
 ```bash
-git clone https://github.com/msondadev/nodeJS_proyecto-final_26134.git
+git clone <URL_DEL_REPOSITORIO>
 cd proyecto-final-26134
 npm install
 ```
@@ -228,7 +228,7 @@ npm test
 
 ## 🌐 Deploy
 
-Proyecto desplegado en Vercel: `<PEGAR_URL_DEL_DEPLOY_ACÁ>`
+Proyecto desplegado en Vercel: `https://node-js-proyecto-final-26134.vercel.app/`
 
 ## 👤 Autor
 
